@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 210vh;
+    background: black;
+}
+
+#rec{
+    background: rgb(231, 235, 13);
+    border-radius: 1% 1% 1% 1%;
+    width: 500px;
+    height: 200px;
+    margin-right: 180px;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+#circle1{
+    width: 200px;
+    height: 210px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 810px;
+}
+
+#circle2{
+    width: 230px;
+    height: 210px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 550px;
+    margin-top: 230px;
+}
+
+#circle3{
+    width: 200px;
+    height: 210px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 4;
+    position: absolute;
+    margin-left: 200px;
+    margin-right: -70px;
+}
+
+#circle4{
+    width: 230px;
+    height: 210px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 5;
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 160px;
+    margin-top: 230px;
+}
+
+#rec2{
+    background:black;
+    border-radius: 10% 10% 10% 10%;
+    width: 120px;
+    height: 100px;
+    margin-right: 150px;
+    margin-top: -210px;
+    z-index: 6;
+    position: absolute;
+    
+}
+#rec3{
+    background:rgb(231, 235, 13);
+    border-radius: 10% 10% 10% 10%;
+    width: 30px;
+    height: 80px;
+    margin-right: 150px;
+    margin-top: -100px;
+    z-index: 7;
+    position: absolute;
+    
+}
+
+#circle5{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(231, 235, 13);
+    border-radius: 50%;
+    z-index: 8;
+    position: absolute;
+    margin-right: 180px;
+    margin-top: -183px;
+}
+
+#circle6{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(231, 235, 13);
+    border-radius: 50%;
+    z-index: 9;
+    position: absolute;
+    margin-right: 120px;
+    margin-top: -183px;
+}
